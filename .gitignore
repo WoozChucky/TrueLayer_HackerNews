@@ -8,3 +8,17 @@ source/HackerNews.UnitTests/obj
 
 source/HackerNews/bin
 source/HackerNews/obj
+
+Hackernews/Hackernews\.UnitTests/obj/
+
+Hackernews/Hackernews\.UnitTests/bin/Debug/netcoreapp2\.0/
+
+Hackernews/Hackernews\.Main/obj/Release/netcoreapp2\.0/win-x64/
+
+Hackernews/Hackernews\.Main/obj/Debug/netcoreapp2\.0/
+
+Hackernews/Hackernews\.Main/obj/
+
+Hackernews/Hackernews\.Main/bin/Release/netcoreapp2\.0/win-x64/
+
+Hackernews/Hackernews\.Main/bin/Debug/netcoreapp2\.0/

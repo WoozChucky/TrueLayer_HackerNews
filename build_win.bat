@@ -1,3 +1,9 @@
-cd source
+@echo off
 
-dotnet publish Hackernews.csproj --self-contained -f netcoreapp2.0 -r win-x64 -o ../Build/Windows -c Release
+cd Hackernews
+
+echo Building Application...
+
+dotnet publish Hackernews.Main/Hackernews.Main.csproj --self-contained -f netcoreapp2.0 -r win-x64 -o ../Build/Windows -c Release
+
+pause

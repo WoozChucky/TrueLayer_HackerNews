@@ -21,6 +21,7 @@ namespace Hackernews
                 Console.WriteLine(e.Message);
                 commandLine.ShowUsage();
             }
+            Console.ReadKey();
         }
 
         private static void HandlePostArgument(int postsCount)

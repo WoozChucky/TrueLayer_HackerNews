@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Hackernews.Main": {
+      "commandName": "Project"
+    }
+  }
+}

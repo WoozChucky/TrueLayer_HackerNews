@@ -1,5 +1,5 @@
 #!/bin/sh
 
-cd source
+cd Hackernews
 
-dotnet publish Hackernews.csproj --self-contained -f netcoreapp2.0 -r linux-x64 -o ../Build/Linux -c Release
+dotnet publish Hackernews.Main/Hackernews.Main.csproj --self-contained -f netcoreapp2.0 -r linux-x64 -o ../Build/Linux -c Release
