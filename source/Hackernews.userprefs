@@ -1,10 +1,11 @@
-﻿<Properties StartupConfiguration="{0C0BC451-F904-4977-8EEF-D42891B7550E}|Default">
+﻿<Properties StartupConfiguration="{B98A9CEA-0D13-4043-8DE5-AE8B2BCFD756}|Default">
   <MonoDevelop.Ide.ItemProperties.Hackernews PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HackerNews.UnitTests/UnitTest1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dockerfile">
     <Files>
-      <File FileName="Program.cs" Line="23" Column="14" />
-      <File FileName="HackerNews.UnitTests/UnitTest1.cs" Line="16" Column="17" />
-      <File FileName="HackerNews.UnitTests/AssertHelper.cs" Line="13" Column="17" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="HackerNews.UnitTests/CommandLineTests.cs" Line="8" Column="16" />
+      <File FileName="HackerNews.UnitTests/AssertHelper.cs" Line="1" Column="1" />
+      <File FileName="Dockerfile" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -12,5 +13,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>

@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  hackernews:
+    image: hackernews
+    build:
+      context: ./.
+      dockerfile: Dockerfile
