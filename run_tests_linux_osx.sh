@@ -1,1 +1,1 @@
-dotnet test Hackernews\Hackernews.UnitTests
+dotnet test Hackernews/Hackernews.UnitTests
