@@ -1,0 +1,14 @@
+language: csharp
+mono: none
+dotnet: 2.1.0
+
+os:  
+  - linux
+
+branches:  
+  only:
+    - master
+
+script:
+ - ./build_linux.sh
+ - ./run_tests_linux_osx.sh
