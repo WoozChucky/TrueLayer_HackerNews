@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+    <RootNamespace>Hackernews.UnitTests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,4 +13,7 @@
     <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Hackernews.csproj" />
+  </ItemGroup>
 </Project>

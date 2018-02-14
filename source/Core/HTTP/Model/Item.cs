@@ -1,10 +1,43 @@
-﻿using System;
+﻿using System.Collections.Generic;
+
 namespace Hackernews.Core.HTTP.Model
 {
-    public class Item
+    public sealed class Item
     {
-        public Item()
+        public long Id
         {
+            get;
+            set;
+        }
+
+        public string Title
+        {
+            get;
+            set;
+        }
+
+        public string URL
+        {
+            get;
+            set;
+        }
+
+        public string By
+        {
+            get;
+            set;
+        }
+
+        public int Score
+        {
+            get;
+            set;
+        }
+
+        public List<long> Kids
+        {
+            get;
+            set;
         }
     }
 }

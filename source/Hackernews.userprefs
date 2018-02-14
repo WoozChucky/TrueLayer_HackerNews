@@ -1,16 +1,15 @@
 ﻿<Properties StartupConfiguration="{0C0BC451-F904-4977-8EEF-D42891B7550E}|Default">
   <MonoDevelop.Ide.ItemProperties.Hackernews PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HackerNews.UnitTests/UnitTest1.cs">
     <Files>
-      <File FileName="Program.cs" Line="12" Column="13" />
-      <File FileName="Core/CommandLine/CommandLine.cs" Line="12" Column="1" />
+      <File FileName="Program.cs" Line="23" Column="14" />
+      <File FileName="HackerNews.UnitTests/UnitTest1.cs" Line="16" Column="17" />
+      <File FileName="HackerNews.UnitTests/AssertHelper.cs" Line="13" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/nb22477/Documents/Personal/TrueLayer_HackerNews/source/Core/CommandLine/CommandLine.cs" relfile="Core/CommandLine/CommandLine.cs" line="12" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
