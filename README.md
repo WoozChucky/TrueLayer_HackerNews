@@ -1,4 +1,4 @@
-# TrueLayer HackerNews
+# TrueLayer HackerNews [![Build Status](https://travis-ci.org/WoozChucky/TrueLayer_HackerNews.svg?branch=master)](https://travis-ci.org/WoozChucky/TrueLayer_HackerNews)
 
 * Follow [this guide](README_no_docker.md) to build and run without Docker
 
