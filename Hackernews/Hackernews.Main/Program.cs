@@ -24,10 +24,12 @@ namespace Hackernews
             Console.ReadKey();
         }
 
-        private static void HandlePostArgument(int postsCount)
+        private static async void HandlePostArgument(int postsCount)
         {
-
-            if(!Utils.HasValidInternetConnection())
+#if DEBUG
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+#endif
+            if (!Utils.HasValidInternetConnection())
             {
                 Console.WriteLine("No Internet connection was found. Aborting...");
                 return;
@@ -38,20 +40,21 @@ namespace Hackernews
             var validPosts = new List<Post>();
 
             // Fetch top 500 post ids
-            var postsIds = api.GetTopPostsIds();
+            var postsIds = await api.GetTopPostsIdsAsync();
 
             //Iterate each id and get the corresponding post details from api
-            foreach (var id in postsIds) {
+            foreach (var id in postsIds)
+            {
 
-                var item = api.GetPost(id);
+                var item = await api.GetPostAsync(id);
 
                 //Validate que post information
-                if(Utils.IsValidPost(item))
+                if (Utils.IsValidPost(item))
                 {
                     validPosts.Add(item.ToPost(validPostsCount + 1));
                     validPostsCount++;
                 }
-                
+
                 if (validPostsCount == postsCount) break;
             }
 
@@ -59,8 +62,12 @@ namespace Hackernews
             var output = Utils.ConvertToPrettyJSON(validPosts);
 
             Console.WriteLine(output);
+
+#if DEBUG
+            watch.Stop();
+            var elapsedMs = watch.ElapsedMilliseconds;
+            Console.WriteLine($"Execution Time: {elapsedMs} miliseconds.");
+#endif
         }
-
-
     }
 }

@@ -12,3 +12,7 @@ Hackernews/Hackernews\.Main/bin/
 Hackernews/.idea/
 
 Hackernews/Build/
+
+*.userprefs
+
+*.user
